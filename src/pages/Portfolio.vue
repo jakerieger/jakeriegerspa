@@ -13,7 +13,17 @@
 					<img src="../assets/18h.png">
 				</div>
 			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-md-6 image-container">
+					<img src="../assets/jr.png">
+				</div>
+				<div class="col-md-6 image-container">
+					<img src="../assets/nw.png">
+				</div>
+			</div>
 		</div>
+		<div class="footer"></div>
 	</div>
 </template>
 
@@ -64,6 +74,7 @@ h3 {
 p {
 	text-align: center;
 	letter-spacing: 6px;
+	text-indent: 6px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
@@ -76,7 +87,11 @@ h2 {
 	margin: 0;
 	color: #444;
 	text-align: center;
-	margin-top: 60px;
 	letter-spacing: 15px;
+	text-indent: 15px;
+}
+
+.footer {
+	margin-bottom: 75px;
 }
 </style>

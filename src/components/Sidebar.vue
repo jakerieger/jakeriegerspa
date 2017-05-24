@@ -1,10 +1,11 @@
 <template>
 	<div class="links">
-		<router-link to="/">home</router-link> <span class="home">&#9608;</span>
+		<router-link to="/">home</router-link> <span>&#9608;</span>
 		<br>
-		<router-link :to="{ path: 'portfolio' }">portfolio</router-link> <span class="port">&#9608;</span>
+		<router-link :to="{ path: 'portfolio' }">portfolio</router-link> <span>&#9608;</span>
 		<br>
-		<router-link :to="{ path: 'about' }">about</router-link> <span class="about">&#9608;</span>
+		<router-link :to="{ path: 'about' }">about</router-link> <span>&#9608;</span>
+		<br>
 	</div>
 </template>
 

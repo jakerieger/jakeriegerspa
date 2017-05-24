@@ -2,7 +2,7 @@
 	<div>
 		<sidebar></sidebar>
 		<h1>JAKE RIEGER</h1>
-		<p>full stack python developer // designer</p>
+		<p>full stack python developer // design enthusiast</p>
 	</div>
 </template>
 
@@ -21,6 +21,7 @@ export default {
 p {
 	text-align: center;
 	letter-spacing: 6px;
+	text-indent: 6px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
@@ -34,6 +35,7 @@ h1 {
 	color: #444;
 	text-align: center;
 	margin-top: 180px;
+	text-indent: 15px;
 	letter-spacing: 15px;
 }
 </style>
