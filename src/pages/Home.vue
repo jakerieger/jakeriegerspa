@@ -2,7 +2,7 @@
 	<div>
 		<sidebar></sidebar>
 		<h1>JAKE RIEGER</h1>
-		<p>full stack python developer // design enthusiast</p>
+		<p>full stack web developer // design enthusiast</p>
 	</div>
 </template>
 

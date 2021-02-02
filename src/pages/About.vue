@@ -8,22 +8,20 @@
 		<div class="container">
 			<div class="col-md-6 col-md-offset-3">
 				<p>
-					My name is Jake Rieger, and I like to make things. Those things happen
-					to be websites, and I think I do it quite well. I spend most of my time
-					working with Python-based technologies such as Flask or Django, but I can
-					work with most frameworks/technologies out there today (this website uses Vue.js).
+					My name is Jake Rieger and I like to make web apps. I'm a huge fan of Vue.js (this website uses it)
+					and Python.
 				</p>
 				<p>
-					I have a broad scope of skills including HTML + CSS + JavaScript,
-					digital design (Photoshop & Illustrator), and even network administration.
-					The following technologies I have either professional or personal experience with:
+					I enjoy UI design and cryptography as well. Most of my projects are written in JavaScript, Python, or C.
+					I also have both professional and personal experience with the following:
 					<ul>
 						<li>Django</li>
 						<li>Flask</li>
 						<li>PHP</li>
-						<li>jQuery / Ajax</li>
-						<li>Vue.js</li>
-						<li>SQL</li>
+						<li>Go</li>
+						<li>MySQL</li>
+						<li>MongoDB</li>
+						<li>Electron</li>
 					</ul>
 				</p>
 				<h3>GET IN TOUCH</h3>
@@ -32,8 +30,8 @@
 					<input type="text" name="name" placeholder="Name"><br><br>
 					<input type="text" name="_replyto" placeholder="Email"><br><br>
 					<textarea name="message" rows="4" placeholder="Comment"></textarea><br><br>
-					<input type="submit" value="Send">
-					<input type="reset" value="Reset">
+					<input type="submit" class="form-submit" value="Send">
+					<input type="reset" class="form-submit" value="Reset">
 				</form>
 			</div>
 		</div>
@@ -131,5 +129,10 @@ h2 {
 
 form {
 	margin-bottom: 75px;
+}
+
+.form-submit:hover {
+	background: rgba(0,0,0,0.05);
+	cursor: pointer;
 }
 </style>

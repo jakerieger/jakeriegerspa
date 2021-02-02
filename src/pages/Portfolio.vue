@@ -7,19 +7,40 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 image-container">
-					<img src="../assets/mcao.png">
+					<h1 class="title">HouseMD</h1>
+					<span>A simple, live markdown editor for Windows - </span>
+					<a href="https://github.com/jakerieger/housemd">GitHub Repo</a>
+					<br><br>
+					<div class="ss-container">
+						<img class="screenshot" src="../assets/housemd.jpg">
+					</div>
 				</div>
 				<div class="col-md-6 image-container">
-					<img src="../assets/18h.png">
+					<h1 class="title">LucidAIO</h1>
+					<span>Powerful automated checkout software - </span>
+					<a href="https://lucidaio.com">Website</a>
+					<br><br>
+					<div class="ss-container">
+						<img class="screenshot" src="../assets/lucidaio.jpg">
+					</div>
 				</div>
-			</div>
-			<br><br>
-			<div class="row">
 				<div class="col-md-6 image-container">
-					<img src="../assets/jr.png">
+					<h1 class="title">Ping</h1>
+					<span>Asynchronous proxy testing - </span>
+					<a href="https://github.com/lucidaio/ping">GitHub Repo</a>
+					<br><br>
+					<div class="ss-container">
+						<img class="screenshot" src="../assets/ping.jpg">
+					</div>
 				</div>
 				<div class="col-md-6 image-container">
-					<img src="../assets/nw.png">
+					<h1 class="title">Proxy.js</h1>
+					<span>Node library for proxy testing - </span>
+					<a href="https://github.com/jakerieger/proxyjs">GitHub Repo</a>
+					<br><br>
+					<div class="ss-container">
+						<img class="screenshot" src="../assets/proxyjs.png">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -93,5 +114,15 @@ h2 {
 
 .footer {
 	margin-bottom: 75px;
+}
+
+.screenshot {
+	border-radius: 8px;
+}
+
+.ss-container {
+	height: 350px;
+	overflow: hidden;
+	border-radius: 8px;
 }
 </style>
